@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 72" width="100" height="72" class="cp-lievito" aria-hidden="true" focusable="false">
+  <ellipse cx="52" cy="66" rx="44" ry="5" fill="#22150f" opacity=".18"/>
+  <g class="cp-lievito-mucchio">
+    <path d="M8 64c0-12 8-18 16-20 0-10 10-16 18-13 4-11 20-13 26-3 10-2 20 6 18 16 8 4 8 14 6 20Z" fill="#e9d6a4" stroke="#22150f" stroke-width="4" stroke-linejoin="round"/>
+    <g fill="#c4a765"><circle cx="30" cy="53" r="2.2"/><circle cx="50" cy="42" r="2"/><circle cx="66" cy="54" r="2.4"/><circle cx="75" cy="40" r="1.8"/><circle cx="44" cy="58" r="1.6"/></g>
+    <path d="M30 42c3-4 7-6 11-5M52 30c3-3 7-4 11-2" fill="none" stroke="#fff8ea" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="94" cy="61" r="3" fill="#e9d6a4" stroke="#22150f" stroke-width="2.5"/>
+    <circle cx="86" cy="66" r="2" fill="#e9d6a4" stroke="#22150f" stroke-width="2"/>
+  </g>
+</svg>

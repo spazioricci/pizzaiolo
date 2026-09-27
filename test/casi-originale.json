@@ -1,0 +1,14 @@
+{"fonte":"https://laconfraternitadellapizza.net/calcolapizza/","raccolti_il":"2026-09-25","fissi":{"H":65,"S":50},
+ "casi":[
+  {"input":{"n":1,"peso":200,"temp":20,"ore":24,"frigo":0},"atteso":{"farina":"119 g","acqua":"77 g","sale":"4 g","lievito":"0,06 g"}},
+  {"input":{"n":6,"peso":250,"temp":20,"ore":24,"frigo":0},"atteso":{"farina":"892 g","acqua":"579 g","sale":"29 g","lievito":"0,48 g"}},
+  {"input":{"n":4,"peso":280,"temp":22,"ore":48,"frigo":40},"atteso":{"farina":"666 g","acqua":"433 g","sale":"22 g","lievito":"0,65 g"}},
+  {"input":{"n":8,"peso":260,"temp":25,"ore":8,"frigo":0},"atteso":{"farina":"1236 g","acqua":"804 g","sale":"40 g","lievito":"1,43 g"}},
+  {"input":{"n":5,"peso":270,"temp":18,"ore":72,"frigo":66},"atteso":{"farina":"802 g","acqua":"522 g","sale":"26 g","lievito":"1,22 g"}},
+  {"input":{"n":3,"peso":250,"temp":30,"ore":6,"frigo":4},"atteso":{"farina":"446 g","acqua":"290 g","sale":"14 g","lievito":"1,39 g"}},
+  {"input":{"n":10,"peso":230,"temp":16,"ore":36,"frigo":30},"atteso":{"farina":"1367 g","acqua":"889 g","sale":"44 g","lievito":"4,19 g"}},
+  {"input":{"n":2,"peso":250,"temp":35,"ore":3,"frigo":0},"atteso":{"farina":"297 g","acqua":"193 g","sale":"10 g","lievito":"0,48 g"}},
+  {"input":{"n":6,"peso":250,"temp":20,"ore":24,"frigo":24},"atteso":{"farina":"-","acqua":"-","sale":"-","lievito":"-"}},
+  {"input":{"n":6,"peso":250,"temp":14,"ore":24,"frigo":0},"atteso":{"farina":"-","acqua":"-","sale":"-","lievito":"-"}}
+ ]
+}

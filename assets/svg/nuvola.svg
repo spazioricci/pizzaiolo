@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="120" height="100" class="cp-nuvola" aria-hidden="true" focusable="false">
+  <!-- Stesse coordinate di panetto.svg: scena.js innesta questi due gruppi dentro il panetto
+       (sbuffi dietro al corpo, corpo-nuvola sopra l'impasto e sotto guance ed espressioni). -->
+  <g class="cp-nuvola-sbuffi" fill="#fbfdff" stroke="#6f8fa6" stroke-width="3.5">
+    <circle class="cp-nuvola-sbuffo cp-nuvola-sbuffo-1" cx="3" cy="84" r="10"/>
+    <circle class="cp-nuvola-sbuffo cp-nuvola-sbuffo-2" cx="117" cy="83" r="11"/>
+    <circle class="cp-nuvola-sbuffo cp-nuvola-sbuffo-3" cx="24" cy="27" r="9"/>
+    <circle class="cp-nuvola-sbuffo cp-nuvola-sbuffo-4" cx="113" cy="48" r="8"/>
+  </g>
+  <g class="cp-nuvola-corpo">
+    <path d="M16 94A15 15 0 0 1 5 68A16 16 0 0 1 22 42A18 18 0 0 1 46 24A19 19 0 0 1 76 20A18 18 0 0 1 101 36A16 16 0 0 1 115 64A16 16 0 0 1 104 94A300 300 0 0 1 16 94Z" fill="#fbfdff" fill-opacity=".94" stroke="#6f8fa6" stroke-width="3.5" stroke-linejoin="round"/>
+    <path class="cp-nuvola-pancia" d="M11 83c11 7 29 10 49 10s38-3 49-10c0 4-2 7-5 8H16c-3-1-5-4-5-8Z" fill="#dcebf5"/>
+    <path class="cp-nuvola-luce" d="M16 58a13 13 0 0 1 9-11M38 33a14 14 0 0 1 13-7" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

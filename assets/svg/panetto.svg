@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="120" height="100" class="cp-panetto" aria-hidden="true" focusable="false">
+  <ellipse class="cp-panetto-ombra" cx="63" cy="92" rx="50" ry="6" fill="#22150f" opacity=".18"/>
+  <path class="cp-panetto-corpo" d="M10 80C6 52 30 26 60 26s54 26 50 54c-1 8-10 11-50 11S11 88 10 80Z" fill="#f6dfb4" stroke="#22150f" stroke-width="4" stroke-linejoin="round"/>
+  <path class="cp-panetto-luce" d="M28 52c6-10 16-16 28-17" fill="none" stroke="#fff8ea" stroke-width="5" stroke-linecap="round"/>
+  <g class="cp-panetto-farina" fill="#fff8ea">
+    <circle cx="80" cy="38" r="1.8"/><circle cx="90" cy="47" r="1.4"/><circle cx="40" cy="82" r="1.5"/><circle cx="95" cy="76" r="1.6"/>
+  </g>
+  <g class="cp-panetto-guance" fill="#ef8f73" opacity=".65">
+    <ellipse cx="35" cy="69" rx="7" ry="4"/><ellipse cx="85" cy="69" rx="7" ry="4"/>
+  </g>
+  <g class="cp-espressione cp-espressione-serena" fill="none" stroke="#22150f" stroke-width="3.5" stroke-linecap="round">
+    <circle cx="46" cy="58" r="3.8" fill="#22150f" stroke="none"/>
+    <circle cx="74" cy="58" r="3.8" fill="#22150f" stroke="none"/>
+    <path d="M52 68q8 7 16 0"/>
+  </g>
+  <g class="cp-espressione cp-espressione-assonnata" opacity="0" fill="none" stroke="#22150f" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M39 58q7 5 14 0M67 58q7 5 14 0"/>
+    <ellipse cx="60" cy="71" rx="3.4" ry="3" fill="#22150f" stroke="none"/>
+    <path d="M91 15h9l-9 10h9" stroke-width="3"/>
+    <path d="M104 4h6l-6 7h6" stroke-width="2.5"/>
+  </g>
+  <g class="cp-espressione cp-espressione-frenetica" opacity="0" fill="none" stroke="#22150f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="45" cy="56" r="6.5" fill="#fff"/><circle cx="46.5" cy="57" r="2.8" fill="#22150f" stroke="none"/>
+    <circle cx="75" cy="56" r="6.5" fill="#fff"/><circle cx="76.5" cy="57" r="2.8" fill="#22150f" stroke="none"/>
+    <path d="M50 70q10-7 20 0q-10 10-20 0Z" fill="#a82716"/>
+    <path d="M107 26c-4 7-4 12 0 12s4-5 0-12Z" fill="#8cc9e6" stroke-width="2.5"/>
+    <path d="M9 40l-7-3M7 50H0M9 60l-7 3" stroke-width="2.5"/>
+  </g>
+  <g class="cp-espressione cp-espressione-confusa" opacity="0" fill="none" stroke="#22150f" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="46" cy="58" r="3.8" fill="#22150f" stroke="none"/>
+    <circle cx="74" cy="58" r="5.5" fill="#fff" stroke-width="3"/><circle cx="74" cy="58" r="2.2" fill="#22150f" stroke="none"/>
+    <path d="M40 48l10 2M68 46l12-4"/>
+    <path d="M50 71q5-4 10 0t10 0"/>
+    <path d="M96 11q0-7 7-7t7 7q0 5-7 8v4"/>
+    <circle cx="103" cy="29" r="2.2" fill="#22150f" stroke="none"/>
+  </g>
+</svg>

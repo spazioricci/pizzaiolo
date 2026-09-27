@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 76" width="60" height="76" class="cp-caraffa" aria-hidden="true" focusable="false">
+  <path d="M44 22h5a6 6 0 0 1 6 6v18a6 6 0 0 1-6 6h-5" fill="none" stroke="#22150f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M4 6h40v58a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V14Z" fill="#fff8ea"/>
+  <path class="cp-caraffa-acqua" d="M10.5 14h31v50a4 4 0 0 1-4 4h-23a4 4 0 0 1-4-4Z" fill="#bfe2f2"/>
+  <path d="M4 6h40v58a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V14Z" fill="none" stroke="#22150f" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M34 26h7M36 39h5M34 52h7" stroke="#22150f" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  <path d="M14 20v30" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+</svg>

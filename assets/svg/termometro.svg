@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 124" width="44" height="124" class="cp-termometro" aria-hidden="true" focusable="false">
+  <rect x="13" y="4" width="18" height="92" rx="9" fill="#fff8ea" stroke="#22150f" stroke-width="4"/>
+  <rect class="cp-termometro-colonna" x="17.5" y="12" width="9" height="86" rx="4.5" fill="#cf3521"/>
+  <path d="M31 24h6M31 40h4M31 56h6M31 72h4" stroke="#22150f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="22" cy="104" r="15" fill="#cf3521" stroke="#22150f" stroke-width="4"/>
+  <path d="M15 101a8 8 0 0 1 6-7" fill="none" stroke="#fff8ea" stroke-width="3" stroke-linecap="round"/>
+</svg>

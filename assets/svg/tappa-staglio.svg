@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" class="cp-icona cp-icona-tappa" fill="none" stroke="#22150f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+  <path d="M3 43c0-8 4-13 9-13s9 5 9 13Z" fill="#f6dfb4"/>
+  <path d="M27 43c0-8 4-13 9-13s9 5 9 13Z" fill="#f6dfb4"/>
+  <rect x="13" y="4" width="22" height="17" rx="3" fill="#d9d3c7"/>
+  <path d="M13 10h22" />
+  <path d="M24 25v3" stroke-width="2.5"/>
+</svg>
