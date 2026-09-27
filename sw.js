@@ -4,7 +4,7 @@
 // non ci sono pagine dinamiche lato server, tutto è statico e versionato dal deploy,
 // quindi ha senso cachare tutto per un vero funzionamento offline. Bump manuale della
 // VERSIONE a ogni release che cambia file precachati.
-const VERSIONE = 'v7';
+const VERSIONE = 'v9';
 const CACHE_NAME = 'pizzaiolo-' + VERSIONE;
 
 // Aggiornare questa lista a ogni stadio che aggiunge pagine/asset (Stadio 1: solo il
@@ -15,17 +15,24 @@ const PRECACHE = [
   'backup.html',
   'sessione.html',
   'farine.html',
+  'diario.html',
+  'esperimento.html',
+  'confronta.html',
   'manifest.json',
   'data/farine-catalogo.json',
   'assets/cartoon.css',
   'assets/scena.js',
   'assets/calcolo.js',
+  'assets/app.js',
   'js/db.js',
   'js/backup.js',
   'js/repo.js',
   'js/pagina-impasto.js',
   'js/pagina-sessione.js',
   'js/pagina-farine.js',
+  'js/pagina-diario.js',
+  'js/pagina-esperimento.js',
+  'js/pagina-confronta.js',
   'assets/svg/panetto.svg',
   'assets/svg/koda.svg',
   'assets/svg/termometro.svg',
@@ -44,6 +51,9 @@ const PRECACHE = [
   'assets/svg/tappa-staglio.svg',
   'assets/svg/tappa-koda.svg',
   'assets/svg/tappa-infornata.svg',
+  'assets/svg/pizza.svg',
+  'assets/svg/foto.svg',
+  'assets/svg/vuoto-diario.svg',
   'icon-192.png',
   'icon-512.png',
 ];

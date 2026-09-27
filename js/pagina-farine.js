@@ -108,7 +108,7 @@
       bModifica.addEventListener('click', () => popolaFormPerModifica(f));
       const bElimina = document.createElement('button');
       bElimina.type = 'button';
-      bElimina.className = 'cp-btn cp-btn-secondario';
+      bElimina.className = 'cp-btn cp-btn-pericolo cp-btn-piccolo';
       bElimina.dataset.conferma = `Eliminare la farina «${f.nome}»?`;
       bElimina.textContent = 'Elimina';
       bElimina.addEventListener('click', async () => {
