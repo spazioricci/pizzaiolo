@@ -20,7 +20,9 @@
 <link href="assets/cartoon.css" rel="stylesheet">
 <script src="assets/scena.js" defer></script>
 <script src="js/db.js" defer></script>
+<script src="js/repo.js" defer></script>
 <script src="assets/calcolo.js" defer></script>
+<script src="js/pagina-impasto.js" defer></script>
 </head>
 <body>
 <header class="cp-top">
@@ -191,9 +193,10 @@
         <ol class="cp-timeline"></ol>
 
         <div class="d-flex flex-wrap gap-3 mt-3">
-          <button type="submit" form="form-impasto" value="avvia_sessione" class="cp-btn cp-btn-primario" disabled title="Disponibile dallo Stadio 4">Avvia la sessione</button>
-          <button type="submit" form="form-impasto" value="salva_ricetta" class="cp-btn cp-btn-secondario" disabled title="Disponibile dallo Stadio 2">Salva ricetta</button>
+          <button type="submit" form="form-impasto" value="avvia_sessione" class="cp-btn cp-btn-primario">Avvia la sessione</button>
+          <button type="submit" form="form-impasto" value="salva_ricetta" class="cp-btn cp-btn-secondario">Salva ricetta</button>
         </div>
+        <p class="cp-messaggio" id="msg-impasto" hidden></p>
       </section>
     </div>
   </div>

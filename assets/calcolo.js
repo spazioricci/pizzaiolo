@@ -150,6 +150,43 @@ function formattaOre(ore) {
   return s === '' ? '0' : s;
 }
 
+/** Peso del lievito nel tipo scelto, a partire dal fresco già arrotondato (2 decimali)
+ * salvato in una ricetta — porting di Impasto::pesoLievitoTipo(). */
+function pesoLievitoTipo(frescoG, tipo) {
+  return tipo === 'secco' ? Number((frescoG / 3).toFixed(2)) : frescoG;
+}
+
+/** Ordine delle tappe (SPEC §8.1); una sessione può non avere 'puntata' o 'frigo_dentro'. */
+const ORDINE_TAPPE = ['impasto', 'puntata', 'frigo_dentro', 'staglio', 'koda', 'infornata'];
+
+/**
+ * Risincronizza il piano (SPEC §8.2, richiesta di Guido del 26/09/2026) — porting di
+ * Pianificatore::risincronizza(). Quando una tappa viene fatta a un orario diverso da
+ * quello previsto, le tappe successive NON ANCORA fatte slittano dello stesso
+ * scostamento: si scorrono le tappe in ordine, ogni tappa già fatta aggiorna lo
+ * scostamento corrente (fatto_il - previsto_il, col previsto_il più recente, che
+ * riflette eventuali scostamenti precedenti); le tappe non ancora fatte dopo l'ultima
+ * fatta vengono spostate di quello scostamento.
+ * @param {Array<{id:number, tipo:string, previsto_il:?string, fatto_il:?string}>} passi
+ * @returns {Object<number, Date>} id del passo -> nuovo previsto_il
+ */
+function risincronizza(passi) {
+  const ordine = Object.fromEntries(ORDINE_TAPPE.map((t, i) => [t, i]));
+  const ordinati = [...passi].sort((a, b) => (ordine[a.tipo] ?? 99) - (ordine[b.tipo] ?? 99));
+
+  let scostamentoMs = 0;
+  const aggiornamenti = {};
+  for (const p of ordinati) {
+    if (p.previsto_il === null || p.previsto_il === undefined) continue;
+    if (p.fatto_il !== null && p.fatto_il !== undefined) {
+      scostamentoMs = new Date(p.fatto_il).getTime() - new Date(p.previsto_il).getTime();
+    } else if (scostamentoMs !== 0) {
+      aggiornamenti[p.id] = new Date(new Date(p.previsto_il).getTime() + scostamentoMs);
+    }
+  }
+  return aggiornamenti;
+}
+
 /* ---------------------------------------------------------------------- */
 /* Da qui in giù: logica di pagina (index.php). Legge i campi, ricalcola   */
 /* live, scrive risultati e attributi data-* per la scena animata.        */
@@ -422,4 +459,6 @@ function formattaOre(ore) {
   });
 })();
 
-if (typeof module !== 'undefined') module.exports = { calcolaImpasto, pianifica };
+if (typeof module !== 'undefined') {
+  module.exports = { calcolaImpasto, pianifica, pesoLievitoTipo, risincronizza };
+}
