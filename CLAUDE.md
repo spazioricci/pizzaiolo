@@ -19,6 +19,10 @@ il calcolatore/diario pizza con amici senza accesso al Tailscale di casa. Gemell
 - `node test/confronto-formula.js` — verifica `calcolaImpasto()` contro i casi di
   `test/casi-originale.json` (gemello del sito originale del Calcolapizza).
 - `python3 -m http.server 8099` — server statico locale per collaudo.
+- Durante lo sviluppo, il service worker serve la cache anche dopo una modifica ai file:
+  se una pagina non riflette un cambiamento appena fatto, da devtools/console del browser
+  disiscrivi il service worker e cancella le cache (`caches.keys()` + `caches.delete(...)`),
+  oppure alza `VERSIONE` in `sw.js`.
 
 ## Convenzioni
 - Codice, commenti e interfaccia in italiano.
